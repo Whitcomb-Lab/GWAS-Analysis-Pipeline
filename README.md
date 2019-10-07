@@ -26,7 +26,7 @@ Principal components of ancestry (PCA) and the genetic relatedness matrix (GRM) 
 
 **Stepwise regression**
 
-Stepwise regression was performed on the full model of age, age^2, sex, BMI, alcohol use, and PCAs 1-10 to determine the appropriate model using the MASS package (Venables et al. 2003) in R v3.5.2 (R Core Team 2018). BMI was calculated using the subject's height and weight. Alcohol use and smoking were self-reported by study participants. Alcohol use was defined as "yes" if the study participant reported current alcohol consumption, otherwise alcohol use was designated as "no". Study participants were classified as a smoker if the study participant reported current smoking, otherwise the study participant was classified as a nonsmoker. Stepwise regression identified sex, BMI, smoking, PCA 1, and PCA 8 as contributing to the model of pancreatitis.
+Stepwise regression was performed on the full model of age, age^2, sex, BMI, alcohol use, smoking, and PCAs 1-10 to determine the appropriate model using the MASS package (Venables et al. 2003) in R v3.5.2 (R Core Team 2018). BMI was calculated using the subject's height and weight. Alcohol use and smoking were self-reported by study participants. Alcohol use was defined as "yes" if the study participant reported current alcohol consumption, otherwise alcohol use was designated as "no". Study participants were classified as a smoker if the study participant reported current smoking, otherwise the study participant was classified as a nonsmoker. Stepwise regression identified sex, BMI, smoking, PCA 1, and PCA 8 as contributing to the model of pancreatitis.
 
 **Genome-wide association study**
 
