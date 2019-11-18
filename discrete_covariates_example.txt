@@ -1,0 +1,5 @@
+0 0 Male NA
+1 1 Male 1
+2 2 Female NA
+3 3 Male 1
+4 4 Female 0
